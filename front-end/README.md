@@ -34,7 +34,7 @@
 <h3>Cloning</h3>
 
 ```bash
-git clone [your-project-url-in-github](https://github.com/dudacatalao/login-auth.git)
+git clone https://github.com/dudacatalao/login-auth.git
 ```
 
 <h3>Starting</h3>
