@@ -49,11 +49,10 @@ export class SignUpComponent {
   }
 
   submit() {
-    this.loginService.login(this.signUpForm.value.email, this.signUpForm.value.password).subscribe({
+    this.loginService.signup(this.signUpForm.value.name ,this.signUpForm.value.email, this.signUpForm.value.password).subscribe({
       next: () => this.toastr.success("Login feito com sucesso"),
       error: () => this.toastr.error("Erro inesperado! Tente novamente mais tarde")
-    })
-  }
+    })  }
 
   navigate() {
     this.router.navigate(['login']);
