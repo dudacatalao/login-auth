@@ -1,27 +1,45 @@
-# LoginPage
+<h1 align="center" style="font-weight: bold;">Login Authentication 💻</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+<p align="center">
+ <a href="#tech">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+ <a href="#contribute">Contribute</a>
+</p>
 
-## Development server
+<p align="center">
+    <b>Interface visual onde os usuários inserem seus dados para acessar o sistema ou registrar uma nova conta. Ele inclui formulários para entrada de informações, e validação para garantir a precisão dos dados inseridos, que são enviados para o back-end.</b>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<h2 id="layout">🎨 Layout</h2>
 
-## Code scaffolding
+<p align="center">
+    <img src="../front-end/src/assets/img/page.png" alt="Image Example" width="400px">
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h2 id="technologies">💻 Technologies</h2>
 
-## Build
+- Angular 17
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<h2 id="started">🚀 Getting started</h2>
 
-## Running unit tests
+- Open the project
+- Open the terminal
+- Start the command "npm run start"
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h3>Prerequisites</h3>
 
-## Running end-to-end tests
+- Angular CLI
+- NodeJS
+- Git 2
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h3>Cloning</h3>
 
-## Further help
+```bash
+git clone [your-project-url-in-github](https://github.com/dudacatalao/login-auth.git)
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h3>Starting</h3>
+
+```bash
+npm run start
+```
